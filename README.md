@@ -31,3 +31,6 @@
 - Email: [im.brucezz@gmail.com](mailto:im.brucezz@gmail.com)
 - 知乎: [Brucezz](https://www.zhihu.com/people/zeroZh)
 
+# usage
+- compile: cd src ; javac me/brucezz/crawler/Main.java
+- run: java me.brucezz.crawler.Main

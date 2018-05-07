@@ -126,7 +126,7 @@ public class CrawlerThread implements Runnable {
             onExit();
             return;
         }
-
+        LogUtil.w("该房间正在直播 " + roomUrl);
         //获取服务器IP列表
         LogUtil.i("获取服务器列表 ...");
         List<ServerInfo> serverList = ResponseParser.parseServerInfo(pageHtml);
